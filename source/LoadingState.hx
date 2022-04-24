@@ -24,8 +24,9 @@ class LoadingState extends MusicBeatState
 	// If you're compiling to desktop (or something that doesn't use NO_PRELOAD_ALL), search for getNextState instead
 	// I'd recommend doing it on both actually lol
 	
-	// TO DO: Make this easier
-	
+	// TO DO: Make this easier 
+
+	// na na na i dont care ~ xmati
 	var target:FlxState;
 	var stopMusic = false;
 	var directory:String;
