@@ -50,7 +50,7 @@ typedef TitleData =
 	bpm:Int
 }
 class TitleState extends MusicBeatState
-{
+{ //what the fuck is your problem ~ xmati
 	public static var muteKeys:Array<FlxKey> = [FlxKey.ZERO];
 	public static var volumeDownKeys:Array<FlxKey> = [FlxKey.NUMPADMINUS, FlxKey.MINUS];
 	public static var volumeUpKeys:Array<FlxKey> = [FlxKey.NUMPADPLUS, FlxKey.PLUS];
@@ -577,10 +577,10 @@ class TitleState extends MusicBeatState
 					#if PSYCH_WATERMARKS
 					createCoolText(['Psych Engine by'], 15);
 					#else
-					createCoolText(['ninjamuffin99', 'phantomArcade', 'kawaisprite', 'evilsk8er']);
+					createCoolText(['xmati', 'dave gaming', 'JP1619', 'and the rest of the team']);
 					#end
 				// credTextShit.visible = true;
-				case 3:
+				case 2:
 					#if PSYCH_WATERMARKS
 					addMoreText('Shadow Mario', 15);
 					addMoreText('RiverOaken', 15);
@@ -590,49 +590,46 @@ class TitleState extends MusicBeatState
 					#end
 				// credTextShit.text += '\npresent...';
 				// credTextShit.addText();
-				case 4:
+				case 3:
 					deleteCoolText();
 				// credTextShit.visible = false;
 				// credTextShit.text = 'In association \nwith';
-				// credTextShit.screenCenter();
-				case 5:
-					#if PSYCH_WATERMARKS
-					createCoolText(['Not associated', 'with'], -40);
-					#else
-					createCoolText(['In association', 'with'], -40);
-					#end
-				case 7:
-					addMoreText('newgrounds', -40);
-					ngSpr.visible = true;
+				// crdTextShit.screenCenter();
+				case 4:
+					createCoolText(['made this cool mod', 'with'], -40);
+					createCoolText(['Psych', 'Engine'], -40);
 				// credTextShit.text += '\nNewgrounds';
-				case 8:
+				case 5:
 					deleteCoolText();
 					ngSpr.visible = false;
 				// credTextShit.visible = false;
 
 				// credTextShit.text = 'Shoutouts Tom Fulp';
 				// credTextShit.screenCenter();
-				case 9:
+				case 6:
 					createCoolText([curWacky[0]]);
 				// credTextShit.visible = true;
-				case 11:
+				case 7:
 					addMoreText(curWacky[1]);
 				// credTextShit.text += '\nlmao';
-				case 12:
+				case 8:
 					deleteCoolText();
 				// credTextShit.visible = false;
 				// credTextShit.text = "Friday";
 				// credTextShit.screenCenter();
-				case 13:
+				case 9:
 					addMoreText('Friday');
 				// credTextShit.visible = true;
-				case 14:
+				case 10:
 					addMoreText('Night');
 				// credTextShit.text += '\nNight';
-				case 15:
+				case 11:
 					addMoreText('Funkin'); // credTextShit.text += '\nFunkin';
 
-				case 16:
+				case 12:
+					addMoreText('VS D&B GREEN DIAMOND EDITION'); // credTextShit.text += '\nFunkin';
+
+				case 13:
 					skipIntro();
 			}
 		}
