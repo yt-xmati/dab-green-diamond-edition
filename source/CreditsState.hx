@@ -81,6 +81,11 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
+                        ['the mod develpoers'],
+			['Dave Gaming',		'davegaming',		'Director of the mod, charter and a little bit source coder',							'https://www.youtube.com/channel/UCQWR_aKT4ITLA26OxmfD43A',	'444444'],
+			['xmati',			'xmati',		'Artist, source coder, oc creator, charter for trolled, lua coder and death',						'https://www.youtube.com/channel/UCnDaqcfVnYu9qZxkxeeYkrQ',		'C30085'],
+			['JP1619',				'JP1619',			'Charter, Lua Coder',					'https://www.youtube.com/c/JP1619',			'279ADC'],
+			[''],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',							'https://twitter.com/Shadow_Mario_',	'444444'],
 			['RiverOaken',			'riveroaken',		'Main Artist/Animator of Psych Engine',						'https://twitter.com/RiverOaken',		'C30085'],
