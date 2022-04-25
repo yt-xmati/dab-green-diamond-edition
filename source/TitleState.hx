@@ -574,18 +574,7 @@ class TitleState extends MusicBeatState
 			switch (sickBeats)
 			{
 				case 1:
-					#if PSYCH_WATERMARKS
-					createCoolText(['Psych Engine by'], 15);
-					#else
 					createCoolText(['xmati', 'dave gaming', 'JP1619', 'and the rest of the team']);
-					#end
-				// credTextShit.visible = true;
-				case 2:
-					#if PSYCH_WATERMARKS
-					addMoreText('Shadow Mario', 15);
-					addMoreText('RiverOaken', 15);
-					addMoreText('shubs', 15);
-					#else
 					addMoreText('present');
 					#end
 				// credTextShit.text += '\npresent...';
@@ -597,7 +586,7 @@ class TitleState extends MusicBeatState
 				// crdTextShit.screenCenter();
 				case 4:
 					createCoolText(['made this cool mod', 'with'], -40);
-					createCoolText(['Psych', 'Engine'], -40);
+					addMoreText('Psych Engine');
 				// credTextShit.text += '\nNewgrounds';
 				case 5:
 					deleteCoolText();
@@ -630,6 +619,9 @@ class TitleState extends MusicBeatState
 					addMoreText('VS D&B GREEN DIAMOND EDITION'); // credTextShit.text += '\nFunkin';
 
 				case 13:
+					addMoreText('fuck you'); // credTextShit.text += '\nFunkin';
+
+				case 14:
 					skipIntro();
 			}
 		}
