@@ -26,7 +26,7 @@ using StringTools;
 class MainMenuState extends MusicBeatState
 {
 	public static var psychEngineVersion:String = '0.5.2h'; //This is also used for Discord RPC
-	public static var shitVersion:String = 'DEV BUILD 2';                                   
+	public static var shitVersion:String = 'DEV BUILD 3';                                   
 	public static var curSelected:Int = 0;
 
 	var menuItems:FlxTypedGroup<FlxSprite>;
@@ -36,6 +36,7 @@ class MainMenuState extends MusicBeatState
 	var optionShit:Array<String> = [
 		'story_mode',
 		'freeplay',
+		'credits',
 		'options'
 	];
 
