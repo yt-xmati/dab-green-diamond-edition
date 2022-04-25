@@ -576,7 +576,6 @@ class TitleState extends MusicBeatState
 				case 1:
 					createCoolText(['xmati', 'dave gaming', 'JP1619', 'and the rest of the team']);
 					addMoreText('present');
-					#end
 				// credTextShit.text += '\npresent...';
 				// credTextShit.addText();
 				case 3:
