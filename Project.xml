@@ -2,7 +2,7 @@
 <project>
 	<!-- _________________________ Application Settings _________________________ -->
 
-	<app title="VS D&B Green Diamond Edition" file="green daimond eidiotn" packageName="com.shadowmario.psychengine" package="com.shadowmario.psychengine" main="Main" version="0.2.7" company="Dave Gaming & xmati" />
+	<app title="Dave And Bambi | Green Diamond Edition" file="VSDAB GREEN DIAMOND EDITION" packageName="com.shadowmario.psychengine" package="com.shadowmario.psychengine" main="Main" version="0.2.7" company="Dave Gaming & xmati" />
 
 	<!--Switch Export with Unique ApplicationID and Icon-->
 	<set name="APP_ID" value="0x0100f6c013bbc000" />
